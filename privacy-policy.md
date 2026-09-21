@@ -2,7 +2,8 @@
 
 **Last updated:** September 21, 2026
 
-This Privacy Policy applies to all applications and extensions published by **Lumostera, MB** on the Wix App Market (collectively, the **"Apps"** or **"Wix Apps"**).
+This Privacy Policy applies to software side projects, web applications, and extensions published by **Lumostera, MB** on the Wix App Market (collectively, the **"Apps"** or **"Wix Apps"**).
+
 
 If you are a site visitor or customer of a merchant using one of our Apps, and you have questions about your personal data, please contact the merchant (site owner) directly, as the merchant controls their own site's data. You may also contact Lumostera, MB at `info@lumostera.com`.
 

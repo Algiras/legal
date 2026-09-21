@@ -2,7 +2,8 @@
 
 **Last updated:** September 21, 2026
 
-These Terms of Use ("Terms") constitute a legally binding agreement between **Lumostera, MB** ("Lumostera", "we", "us", or "our") and the merchant, individual, or business entity ("Merchant", "you", or "your") installing, accessing, or using any applications or software extensions published by Lumostera, MB on the Wix App Market (collectively, the **"Apps"** or **"Wix Apps"**).
+These Terms of Use ("Terms") constitute a legally binding agreement between **Lumostera, MB** ("Lumostera", "we", "us", or "our") and the merchant, individual, or business entity ("Merchant", "you", or "your") installing, accessing, or using software side projects, applications, or software extensions published by Lumostera, MB on the Wix App Market (collectively, the **"Apps"** or **"Wix Apps"**).
+
 
 By installing, adding, or using any of our Apps on your Wix site, you agree to be bound by these Terms. If you do not agree, do not install or use the Apps.
 
