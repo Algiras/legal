@@ -2,13 +2,12 @@
 
 **Last updated:** September 21, 2026
 
-These Terms of Use ("Terms") constitute a legally binding agreement between **Lumostera, MB** ("Lumostera", "we", "us", or "our") and the merchant, individual, or business entity ("Merchant", "you", or "your") installing, accessing, or using software side projects, applications, or software extensions published by Lumostera, MB on the Wix App Market (collectively, the **"Apps"** or **"Wix Apps"**).
+These Terms of Use ("Terms") constitute a legally binding agreement between **Lumostera, MB** ("Lumostera", "we", "us", or "our") and the individual, merchant, or business entity ("User", "Merchant", "you", or "your") installing, accessing, or using any software applications, web tools, integrations, or software extensions published by Lumostera, MB across software marketplaces, web platforms, and app ecosystems (including the Wix App Market, standalone web tools, and related software platforms) (collectively, the **"Apps"**).
 
+By installing, accessing, adding, or using any of our Apps, you agree to be bound by these Terms. If you do not agree, do not install or use the Apps.
 
-By installing, adding, or using any of our Apps on your Wix site, you agree to be bound by these Terms. If you do not agree, do not install or use the Apps.
-
-> ### **Architecture & Hosting Notice: 100% Native Wix Infrastructure**
-> All Apps published by Lumostera, MB operate exclusively on Wix official serverless infrastructure and store data solely within the merchant's own Wix Data (CMS) collections. Lumostera, MB operates zero external servers, databases, or third-party cloud hosting environments.
+> ### **Architecture & Hosting Notice**
+> All Apps published by Lumostera, MB operate natively within host platform environments (such as official Wix serverless infrastructure for Wix Apps, or client-side environments) and store data solely within user- or merchant-owned collections (such as Wix Data CMS collections). Lumostera, MB operates zero external servers, databases, or third-party cloud hosting environments for user application data.
 
 ---
 
@@ -16,31 +15,31 @@ By installing, adding, or using any of our Apps on your Wix site, you agree to b
 
 To install and use the Apps, you must:
 - Be at least 18 years of age or the age of majority in your jurisdiction.
-- Have full authority to bind the business entity on whose behalf you operate the Wix site.
+- Have full authority to bind the individual or business entity on whose behalf you install or operate the Apps.
 - Comply with all applicable local, national, and international laws, regulations, and tax obligations.
 
 ## 2. License Grant & Permitted Use
 
-Subject to these Terms and any applicable subscription fees, Lumostera, MB grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Apps solely on Wix sites you own or operate, via the official Wix Business Manager and storefronts.
+Subject to these Terms and any applicable subscription fees, Lumostera, MB grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Apps solely on websites, accounts, or stores you own or operate, via official host platform interfaces.
 
 You agree not to:
-- Reverse-engineer, decompile, disassemble, or derive the source code of any App except as permitted by applicable law.
+- Reverse-engineer, decompile, disassemble, or derive the source code of any App except as expressly permitted by applicable law.
 - Circumvent, tamper with, or bypass any feature-gating, entitlement checks, or billing controls.
 - Use any App to violate applicable laws, transmit malicious code, or engage in deceptive commerce.
 
-## 3. Plans, Subscriptions & Wix Billing
+## 3. Plans, Subscriptions & Platform Billing
 
-1. **Free Tier vs. Paid Plans**: Certain Apps offer a Free plan with core features, and optional Paid plans (e.g., "Pro") that unlock higher tier limits or advanced features.
-2. **Billing via Wix**: All subscription orders, upgrades, downgrades, cancellations, and renewals are handled exclusively through **Wix Billing** and the **Wix App Market**. We do not collect or store credit card details or process payments directly.
-3. **Refunds & Cancellations**: Plan cancellations and refund requests are governed by official Wix App Market policies. You may cancel your subscription at any time via your Wix account settings.
+1. **Free Tier vs. Paid Plans**: Certain Apps offer a Free tier with core features, and optional Paid plans (e.g., "Pro") that unlock higher tier limits or advanced features.
+2. **Billing via Platform**: All subscription orders, upgrades, downgrades, cancellations, and renewals are handled exclusively through the host platform's official billing system (such as **Wix Billing** and the **Wix App Market**). We do not collect or store credit card details or process payments directly.
+3. **Refunds & Cancellations**: Plan cancellations and refund requests are governed by the respective host platform or app marketplace terms. You may cancel your subscription at any time via your host platform account settings.
 
-## 4. Native Wix Infrastructure & Data Security
+## 4. Platform Infrastructure & Data Security
 
-1. **Merchant-Owned Storage**: All configuration rules, templates, and operational logs are stored within your own site's Wix Data collections. We do not host your store, order, or customer data on independent or third-party external servers.
+1. **User-Owned Storage**: All configuration rules, templates, and operational logs are stored within your own site or account's platform data collections (e.g. Wix Data). We do not host your store, order, or customer data on independent or third-party external servers.
 2. **Data Privacy**: Our collection and use of diagnostic signals and uninstall purge behaviors are detailed in our [Privacy Policy](./privacy-policy.md).
-3. **Availability**: The Apps execute inside Wix's cloud hosting environment; service availability, execution times, and network transport are subject to Wix platform uptime and operational SLAs.
+3. **Availability**: The Apps execute inside the host platform's cloud hosting environment; service availability, execution times, and network transport are subject to the host platform's uptime and operational SLAs.
 
-## 5. Merchant Responsibilities
+## 5. User & Merchant Responsibilities
 
 You are solely responsible for:
 - The configuration and testing of all rules (fees, validation thresholds, discounts, or deposit schedules) prior to relying on them in live commercial transactions.
@@ -59,7 +58,7 @@ OUR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATING TO THESE
 
 ## 8. Termination & Uninstallation
 
-You may terminate these Terms at any time by uninstalling the App from your Wix site. We reserve the right to suspend or terminate access to any App if you breach these Terms or the Wix App Market terms. Upon uninstallation, operational records are purged in accordance with our [Privacy Policy](./privacy-policy.md).
+You may terminate these Terms at any time by uninstalling or removing the App from your site or account. We reserve the right to suspend or terminate access to any App if you breach these Terms or the applicable marketplace terms. Upon uninstallation, operational records are purged in accordance with our [Privacy Policy](./privacy-policy.md).
 
 ## 9. Modifications to Terms
 

@@ -176,65 +176,66 @@
   <div class="container">
     <h1>Privacy Policy</h1>
 <p><strong>Last updated:</strong> September 21, 2026</p>
-<p>This Privacy Policy applies to software side projects, web applications, and extensions published by <strong>Lumostera, MB</strong> on the Wix App Market (collectively, the <strong>"Apps"</strong> or <strong>"Wix Apps"</strong>).</p>
-<p>If you are a site visitor or customer of a merchant using one of our Apps, and you have questions about your personal data, please contact the merchant (site owner) directly, as the merchant controls their own site's data. You may also contact Lumostera, MB at <code>info@lumostera.com</code>.</p>
+<p>This Privacy Policy applies to all software applications, web tools, integrations, and extensions published by <strong>Lumostera, MB</strong> ("Lumostera", "we", "us", or "our") across software marketplaces, web platforms, and app ecosystems (including the Wix App Market, standalone web tools, and related software platforms) (collectively, the <strong>"Apps"</strong>).</p>
+<p>If you are an end user, site visitor, or customer of a business or merchant using one of our Apps, and you have questions regarding your personal data, please contact the respective site owner or business directly, as they act as the data controller of their own site and customer records. You may also contact Lumostera, MB at <code>info@lumostera.com</code>.</p>
 <blockquote>
-<h3><strong>Key Summary: 100% Native Wix Infrastructure &amp; Zero External Data Storage</strong></h3>
+<h3><strong>Core Architecture &amp; Data Privacy Notice</strong></h3>
 <ul>
-<li><strong>All Data Held Exclusively on Wix</strong>: Every record processed or stored by our Apps resides solely within the merchant's own Wix Data (CMS) collections and site settings on Wix's official cloud infrastructure.</li>
-<li><strong>Zero External DevOps or Databases</strong>: Lumostera, MB operates no external servers, databases, or third-party cloud storage (no AWS, Google Cloud, Azure, Supabase, or private endpoints).</li>
-<li><strong>Exclusively Native Wix APIs</strong>: The Apps run 100% on Wix serverless compute and communicate exclusively via official Wix APIs. No merchant, store, order, or customer data is ever sent to, shared with, or stored on external servers.</li>
+<li><strong>Native Platform Storage &amp; Zero External Databases</strong>: All data processed or stored by our Apps resides exclusively within the user's or merchant's own platform data layer (for example, native Wix Data / CMS collections for Wix Apps, or client-side storage for browser extensions). Lumostera, MB operates no external servers, databases, or third-party cloud data warehouses (no AWS, Google Cloud, Azure, Supabase, or private server endpoints).</li>
+<li><strong>Native Platform Execution</strong>: The Apps execute within official platform serverless runtimes or client environments and communicate exclusively via official platform APIs. No business, customer, or order data is ever exfiltrated, sold, or stored on external servers.</li>
 </ul>
 </blockquote>
 <hr />
 <h2>1. Who controls this data</h2>
-<p>Each App is installed by a merchant onto their own Wix site. The merchant is the <strong>data controller</strong> of all store and order data. We (Lumostera, MB, the developer) provide the software extensions, which execute strictly inside the merchant's own Wix environment and interact solely with Wix platform APIs.</p>
+<p>When an App is installed or used within a merchant or user site (such as a Wix site):
+- The merchant or site owner is the <strong>data controller</strong> of all store, customer, and order data.
+- Lumostera, MB acts strictly as a software provider. Our software extensions execute within the host platform environment and interact solely via official platform APIs.</p>
 <h2>2. Where data is stored</h2>
-<p><strong>All data stored by any App is stored in the merchant's own Wix Data (CMS) collections, on the merchant's own Wix site — entirely within Wix infrastructure, and never on developer servers.</strong> </p>
-<p>The Apps use Wix's native platform data layer (<code>@wix/data</code> items and collections APIs) exclusively for query, insert, update, remove, and readiness checks. The software contains no external database client, no third-party object-storage SDK, and makes no outbound network requests to any non-Wix domain.</p>
-<p><strong>We do not operate independent servers or cloud storage for your data</strong>, and there are <strong>no third parties</strong> with whom any App shares merchant or customer data, beyond Wix itself as the underlying hosting and eCommerce platform.</p>
-<p>The only information transmitted to the developer is diagnostic and operational telemetry, described in Section 6 below, transmitted via Wix's native BI event pipeline — strictly limited to non-identifying operational health signals, never customer content.</p>
+<p><strong>All data stored by any App is stored in user- or merchant-owned storage on the host platform — entirely within host platform infrastructure, and never on independent developer servers.</strong> </p>
+<p>For example, for applications running within the Wix ecosystem, all configuration rules and workflow records are saved in the merchant's own private Wix Data collections using official <code>@wix/data</code> SDK interfaces. The software contains no external database drivers, no third-party cloud storage clients, and makes no outbound network requests to any external third-party servers.</p>
+<p><strong>We do not operate independent servers or cloud storage for your data</strong>, and there are <strong>no third parties</strong> with whom any App shares merchant or customer data, beyond the host platform itself as the underlying eCommerce and hosting provider.</p>
+<p>The only information transmitted to the developer is diagnostic and operational telemetry, described in Section 6 below, transmitted via native platform event pipelines — strictly limited to non-identifying operational health signals, never customer personal content.</p>
 <h2>3. What the Apps collect, and why</h2>
-<p>The Apps collect and persist only what is strictly necessary to provide their merchant-configured functionality:</p>
+<p>The Apps collect and persist only what is strictly necessary to deliver their configured functionality:</p>
 <ol>
-<li><strong>Merchant Business Configuration</strong>:</li>
-<li>Includes merchant-defined rules, options, thresholds, templates, and display settings (such as fee amounts, validation criteria, discount tiers, delivery rules, pipeline stages, or document templates).</li>
-<li>Stored in app-specific private Wix Data collections on the merchant's site.</li>
+<li><strong>Business &amp; App Configuration</strong>:</li>
+<li>Includes user- or merchant-defined rules, settings, thresholds, display options, and templates (such as fee rules, validation criteria, pricing tiers, delivery settings, or document templates).</li>
+<li>Stored in app-specific private storage collections within the merchant's or user's host platform account.</li>
 <li>
-<p><strong>Not customer-linked:</strong> Contains purely operational merchant settings.</p>
+<p><strong>Not customer-linked:</strong> Contains purely operational configuration settings.</p>
 </li>
 <li>
 <p><strong>Operational Workflow Data</strong>:</p>
 </li>
-<li>Includes staff-authored internal notes, fulfillment stage tracking, or layaway/deposit schedule records created by the merchant's team to manage store operations.</li>
+<li>Includes staff-authored internal notes, fulfillment stage tracking, or layaway/deposit schedule records created by store teams to manage internal operations.</li>
 <li>
-<p>Stored in app-specific private Wix Data collections on the merchant's site, linked to internal order or contact identifiers.</p>
+<p>Stored in app-specific private platform collections, linked to internal order or contact identifiers.</p>
 </li>
 <li>
 <p><strong>Payment &amp; Credential Security</strong>:</p>
 </li>
-<li><strong>None.</strong> The Apps do not read, process, or store customer payment cards, bank details, or account passwords. All checkouts, billing, and transactions are handled exclusively by Wix Payments and official Wix eCommerce infrastructure.</li>
+<li><strong>None.</strong> The Apps do not read, process, or store payment card numbers, bank details, or passwords. All payment transactions, checkouts, and subscription billings are handled exclusively by the host platform (such as Wix Payments, Wix Billing, or official platform payment gateways).</li>
 </ol>
 <h2>4. How long data is retained, and uninstall behavior</h2>
-<p>Because all data lives in the merchant's own Wix Data collections, data retention is managed directly within the merchant's Wix site.</p>
-<p>When a merchant uninstalls an App from their site, the platform delivers an <code>app-removed</code> webhook event:
-- <strong>Operational Workflow Records</strong>: Operational order-linked data is purged upon uninstall via automated platform lifecycle handlers.
-- <strong>Merchant Business Configuration</strong>: Configuration settings and rule definitions are retained within the merchant's site storage so that an accidental uninstallation does not destroy business configuration upon reinstall.
-- <strong>Manual Deletion</strong>: Merchants have full administrative access to view, export, or delete any app-specific collection directly in the Wix Business Manager (via CMS / Wix Data).</p>
+<p>Because all data lives in the merchant's or user's own host platform collections, data retention is managed directly within the host site.</p>
+<p>When an App is uninstalled from a host site:
+- <strong>Operational Workflow Records</strong>: Operational order-linked records are purged upon uninstall via automated platform lifecycle handlers where applicable.
+- <strong>Business Configuration</strong>: Configuration rules and settings are retained within the site's private collections so that an accidental uninstallation does not destroy business configuration upon reinstall.
+- <strong>Manual Deletion</strong>: Site owners maintain administrative control to view, export, or delete any app-specific collection directly through their host platform dashboard (e.g., via Wix CMS / Wix Data).</p>
 <h2>5. Third-party disclosure</h2>
-<p>We do not sell, rent, trade, or transfer merchant or customer data to third parties. All processing occurs within Wix's secure platform infrastructure.</p>
+<p>We do not sell, rent, trade, or transfer personal or customer data to third parties. All processing occurs within secure, official platform infrastructure.</p>
 <h2>6. Diagnostic and operational telemetry</h2>
-<p>To monitor availability and provide technical support, the Apps emit structured operational events to Wix's BI telemetry pipeline. These events contain:
+<p>To monitor availability and provide technical support, the Apps emit structured operational events to native platform telemetry pipelines. These events contain:
 - <code>app_version</code>, <code>schema_version</code>, <code>timestamp</code>
 - <code>outcome</code> (<code>success</code>, <code>failure</code>, <code>timeout</code>)
-- <code>surface</code> (<code>dashboard</code>, <code>backend_event</code>, <code>service_plugin</code>)
-- Sanitized operational <code>error_code</code> and <code>wix_request_id</code></p>
+- <code>surface</code> (<code>dashboard</code>, <code>backend_event</code>, <code>service_plugin</code>, etc.)
+- Sanitized operational <code>error_code</code> and platform <code>request_id</code></p>
 <p><strong>No customer personal data, note text, recipient details, or raw exception stack traces containing free text are ever transmitted.</strong> All string identifiers pass through strict sanitization filters that discard non-whitelisted tokens prior to transmission.</p>
 <h2>7. Your rights and how to request deletion</h2>
-<h3>For Merchants</h3>
-<p>Merchants may access, export, or delete any data persisted by the Apps directly through the Wix Business Manager (via Wix Data / CMS collections). Additionally, merchants may request manual purging of configuration or historical records by contacting <code>info@lumostera.com</code>.</p>
+<h3>For Merchants &amp; Site Owners</h3>
+<p>Merchants may access, export, or delete any data persisted by the Apps directly through their host platform dashboard (e.g., via Wix Business Manager CMS). Additionally, merchants may request manual assistance with data purging by contacting <code>info@lumostera.com</code>.</p>
 <h3>For Customers of Merchants</h3>
-<p>If you are a consumer or buyer whose order or profile is referenced within a merchant's internal notes or fulfillment timeline, please direct your data subject request (access, correction, or deletion) to the respective merchant. If the merchant requires developer assistance to fulfill an erasure request, the merchant may contact us at <code>info@lumostera.com</code>.</p>
+<p>If you are a consumer or buyer whose order or profile is referenced within a merchant's internal notes or fulfillment timeline, please direct your data subject request (access, correction, or deletion) to the respective merchant or business. If the merchant requires developer assistance to fulfill an erasure request, the merchant may contact us at <code>info@lumostera.com</code>.</p>
 <h3>European Economic Area (EEA) &amp; UK Rights</h3>
 <p>Under the EU General Data Protection Regulation (GDPR) and UK GDPR, data subjects have the right to:
 - Request access to and a copy of their personal data.
@@ -244,7 +245,7 @@
 - Request data portability.
 - Lodge a complaint with a supervisory authority. In Lithuania, the relevant authority is the State Data Protection Inspectorate (<em>Valstybinė duomenų apsaugos inspekcija</em> — VDAI, <a href="https://vdai.lrv.lt">vdai.lrv.lt</a>).</p>
 <h2>8. Children's privacy</h2>
-<p>The Apps are professional, business-to-business tools intended solely for merchants and commercial site owners. We do not knowingly collect or solicit personal data from children under the age of 16. If you believe an App has inadvertently received personal data relating to a child, please contact <code>info@lumostera.com</code> so we may promptly assist the merchant with deletion.</p>
+<p>The Apps are professional and utility tools intended for businesses and site owners. We do not knowingly collect or solicit personal data from children under the age of 16. If you believe an App has inadvertently received personal data relating to a child, please contact <code>info@lumostera.com</code> so we may promptly assist with deletion.</p>
 <h2>9. Changes to this policy</h2>
 <p>We may update this Privacy Policy from time to time to reflect operational, legal, or regulatory changes. Any modifications will be posted to this page with an updated "Last updated" date. Continued use of the Apps after any update constitutes acknowledgment of the revised terms.</p>
 <h2>10. Contact</h2>
